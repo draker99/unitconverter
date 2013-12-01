@@ -10,4 +10,10 @@
 
 @interface UnitConverterViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *tempText;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+- (IBAction)convertTemp:(id)sender;
+- (IBAction)textFieldReturn:(id)sender;
+
+
 @end
